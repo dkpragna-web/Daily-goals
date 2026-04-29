@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.goal-item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1rem;
+    color: #555;
+    cursor: pointer;
+}
+
+/* This adds a strike-through when checked! */
+input:checked + label {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+body {
+    background-color: coral; /* Change this to any color you like */
+}
